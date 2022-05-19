@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Duck</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <div>
+                <a href="#"><img class="logo" src="/assets/imagens/duck.png" alt=""></a>
+                <a href=""><img src="/assets/imagens/user.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="createCards">
+
+        <div class="newTweet">
+
+            <div class="contentNewTweet">
+
+                <div class="tweetHeader">
+                    <img src="/assets/imagens/user.png" alt="">
+                </div>
+                <textarea id="textSpace" placeholder="What's happening?" maxlength="140"></textarea>
+
+            </div>
+
+            <div class="createBtn">
+                <button class="btnPequeno">
+                    <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M2.33341 0.5H0.666748V15.5H2.33341H15.6667H17.3334V0.5H15.6667H2.33341ZM15.6667 2.16667V13.8333H2.33341V2.16667H15.6667ZM10.6667 5.5H9.00008V7.16667H7.33341V8.83333H5.66675V10.5H4.00008V12.1667H5.66675V10.5H7.33341V8.83333H9.00008V7.16667H10.6667V8.83333H12.3334V10.5H14.0001V8.83333H12.3334V7.16667H10.6667V5.5ZM5.66675 3.83333H4.00008V5.5H5.66675V3.83333Z"
+                            fill="black" />
+                    </svg>
+                </button>
+                <button class="btnPequeno">
+                    <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1.81818 0H7.27273V1.81818H1.81818L1.81818 7.27273H5.45455L5.45455 5.45455H3.63636V3.63636L5.45455 3.63636L7.27273 3.63636V5.45455V7.27273V9.09091H5.45455H1.81818H0V7.27273V1.81818V0H1.81818ZM14.5455 0H20V1.81818H14.5455V3.63636H18.1818V5.45455H14.5455V9.09091H12.7273V5.45455V3.63636V0H14.5455ZM10.9091 0H9.09091V9.09091H10.9091V0Z"
+                            fill="black" />
+                    </svg>
+                </button>
+                <button class="btnPequeno">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.8334 12.5001V10.8334H5.83337V9.16675H12.5V7.50008H5.83337V5.83341L9.16671 5.83341V4.16675L5.83337 4.16675H4.16671V5.83341V7.50008V9.16675V10.8334V12.5001V14.1667V15.8334H5.83337H9.16671V14.1667H5.83337V12.5001H15.8334Z"
+                            fill="black" />
+                    </svg>
+                </button>
+                <button class="btnPequeno">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.83333 2.5H14.1667V4.16667H5.83333V2.5ZM4.16667 5.83333V4.16667H5.83333V5.83333H4.16667ZM4.16667 14.1667H2.5V5.83333H4.16667V14.1667ZM5.83333 15.8333H4.16667V14.1667H5.83333V15.8333ZM14.1667 15.8333V17.5H5.83333V15.8333H14.1667ZM15.8333 14.1667V15.8333H14.1667V14.1667H15.8333ZM15.8333 5.83333H17.5V14.1667H15.8333V5.83333ZM15.8333 5.83333V4.16667H14.1667V5.83333H15.8333ZM9.16667 11.6667H7.5V13.3333H9.16667L9.16667 14.1667H10.8333L10.8333 13.3333H12.5V11.6667H10.8333L10.8333 12.5H9.16667L9.16667 11.6667ZM13.3335 7.5H11.6669V9.16667H13.3335V7.5ZM6.66667 7.5H8.33333V9.16667H6.66667V7.5Z"
+                            fill="black" />
+                    </svg>
+                </button>
+                <button class="btnPequeno">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.5 1.66675H14.1667V3.33341H15.8333H17.5V5.00008V6.66675V8.33341V16.6667V18.3334L15.8333 18.3334H4.16667L2.5 18.3334V16.6667V8.33341V6.66675V5.00008V3.33341H4.16667H5.83333V1.66675H7.5V3.33341H12.5V1.66675ZM7.5 5.00008H5.83333H4.16667V6.66675H15.8333V5.00008H14.1667H12.5H7.5ZM4.16667 8.33341V16.6667H15.8333V8.33341H4.16667ZM5.83333 10.0001H7.5V11.6667H5.83333V10.0001ZM10.8333 10.0001H9.16667V11.6667H10.8333V10.0001ZM12.5 10.0001H14.1667V11.6667H12.5V10.0001ZM7.5 13.3334H5.83333V15.0001H7.5V13.3334ZM9.16667 13.3334H10.8333V15.0001H9.16667V13.3334ZM14.1667 13.3334H12.5V15.0001H14.1667V13.3334Z"
+                            fill="black" />
+                    </svg>
+                </button>
+                <button class="btnPequeno">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9.17135 19H11.0285V17.2H9.17137V13.6H7.31423V17.2H9.17135V19ZM12.8856 4.60001H14.7428V2.80001H12.8856V4.60001ZM12.8857 2.79999H7.31426V0.999989H12.8857V2.79999ZM11.0286 17.2H12.8857V13.6H11.0286V17.2ZM14.7428 13.6H12.8856V10H14.7428L14.7428 13.6ZM14.7428 10H16.6V4.6H14.7428V10ZM5.4571 4.6L7.31417 4.60001V2.80001H5.45702V4.60001L3.59995 4.6V10H5.4571V4.6ZM5.45702 13.6L7.31417 13.6L7.31417 10H5.45702L5.45702 13.6Z"
+                            fill="black" />
+                        <rect x="9" y="7" width="2" height="2" fill="black" />
+                    </svg>
+                </button>
+                <button id="send">tweet</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="cards">
+
+        <div class="tweet">
+
+            <div class="tweet-header">
+                <img src="/assets/imagens/imp.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <div class="name">
+                    <h4>Imperial</h4>
+                    <h5>@imperialesports</h5>
+                </div>
+
+                <div class="content-tweet">
+                    <p>Hoje vocês tem um compromisso! Às 14h30 vs <a href="#">@CPHFlames</a>. Contamos com toda torcida
+                        presente para mais um show 💚</p>
+                </div>
+
+                <div class="tweetBtn">
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.6666 1.66675L3.33325 1.66675L1.66658 1.66675V3.33342L1.66658 18.3334H3.33325L3.33325 3.33342L16.6666 3.33342V13.3334L4.99992 13.3334V15.0001H3.33346V16.6667H5.00012V15.0001L16.6666 15.0001H18.3333V13.3334V3.33342V1.66675L16.6666 1.66675Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1 6.4V8.2H2.8V6.4H4.6L4.6 17.2H6.4V19H10.9V17.2H6.4L6.4 6.4H8.2V8.2H10V6.4H8.2V4.6H6.4V2.8H4.6V4.6H2.8V6.4H1ZM17.2 15.4V13.6L19 13.6V11.8H17.2V13.6H15.4L15.4 2.8H13.6V1H9.1V2.8H13.6L13.6 13.6H11.8L11.8 11.8H10V13.6L11.8 13.6V15.4H13.6V17.2H15.4V15.4H17.2Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M7.54545 2H4.27273V3.63636H2.63636V5.27273H1V10.1818H2.63636V11.8182H4.27273V13.4545H5.90909V15.0909H7.54545V16.7273H9.18182V18.3636H10.8182V16.7273H12.4545V15.0909H14.0909V13.4545L15.7273 13.4545V11.8182H17.3636V10.1818H19V5.27273H17.3636V3.63636H15.7273V2H12.4545V3.63636H10.8182V5.27273H9.18182V3.63636H7.54545V2ZM7.54545 3.63636V5.27273H9.18182V6.90909H10.8182V5.27273H12.4545L12.4545 3.63636H15.7273L15.7273 5.27273H17.3636V10.1818H15.7273V11.8182H14.0909V13.4545H12.4545L12.4545 15.0909H10.8182V16.7273H9.18182V15.0909H7.54545V13.4545L5.90909 13.4545V11.8182H4.27273V10.1818H2.63636V5.27273H4.27273V3.63636H7.54545Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M2.5 11.6667L2.5 15.8333V17.5H4.16667H15.8333H17.5V15.8333V11.6667H15.8333V15.8333H4.16667V11.6667H2.5ZM9.16667 3.33333V5H7.5V6.66667H5.83333V8.33333H7.5V6.66667H9.16667V15H10.8333V3.33333H9.16667ZM10.8333 5H12.5V6.66667H10.8333V5ZM12.5 6.66667H14.1667V8.33333H12.5V6.66667Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="tweet">
+            <div class="tweet-header">
+                <img src="/assets/imagens/profile.png" alt="">
+            </div>
+
+            <div class="content">
+                <div class="name">
+                    <h4>Guilherme</h4>
+                    <h5>@guipow1</h5>
+                </div>
+
+                <div class="content-tweet">
+                    <p>mas que tal esse frio.</p>
+                </div>
+
+                <div class="tweetBtn">
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.6666 1.66675L3.33325 1.66675L1.66658 1.66675V3.33342L1.66658 18.3334H3.33325L3.33325 3.33342L16.6666 3.33342V13.3334L4.99992 13.3334V15.0001H3.33346V16.6667H5.00012V15.0001L16.6666 15.0001H18.3333V13.3334V3.33342V1.66675L16.6666 1.66675Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1 6.4V8.2H2.8V6.4H4.6L4.6 17.2H6.4V19H10.9V17.2H6.4L6.4 6.4H8.2V8.2H10V6.4H8.2V4.6H6.4V2.8H4.6V4.6H2.8V6.4H1ZM17.2 15.4V13.6L19 13.6V11.8H17.2V13.6H15.4L15.4 2.8H13.6V1H9.1V2.8H13.6L13.6 13.6H11.8L11.8 11.8H10V13.6L11.8 13.6V15.4H13.6V17.2H15.4V15.4H17.2Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M7.54545 2H4.27273V3.63636H2.63636V5.27273H1V10.1818H2.63636V11.8182H4.27273V13.4545H5.90909V15.0909H7.54545V16.7273H9.18182V18.3636H10.8182V16.7273H12.4545V15.0909H14.0909V13.4545L15.7273 13.4545V11.8182H17.3636V10.1818H19V5.27273H17.3636V3.63636H15.7273V2H12.4545V3.63636H10.8182V5.27273H9.18182V3.63636H7.54545V2ZM7.54545 3.63636V5.27273H9.18182V6.90909H10.8182V5.27273H12.4545L12.4545 3.63636H15.7273L15.7273 5.27273H17.3636V10.1818H15.7273V11.8182H14.0909V13.4545H12.4545L12.4545 15.0909H10.8182V16.7273H9.18182V15.0909H7.54545V13.4545L5.90909 13.4545V11.8182H4.27273V10.1818H2.63636V5.27273H4.27273V3.63636H7.54545Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M2.5 11.6667L2.5 15.8333V17.5H4.16667H15.8333H17.5V15.8333V11.6667H15.8333V15.8333H4.16667V11.6667H2.5ZM9.16667 3.33333V5H7.5V6.66667H5.83333V8.33333H7.5V6.66667H9.16667V15H10.8333V3.33333H9.16667ZM10.8333 5H12.5V6.66667H10.8333V5ZM12.5 6.66667H14.1667V8.33333H12.5V6.66667Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tweet">
+
+            <div class="tweet-header">
+                <img src="/assets/imagens/profile2.png" alt="">
+            </div>
+
+            <div class="content">
+                <div class="name">
+                    <h4>Chrystian</h4>
+                    <h5>@chrycho</h5>
+                </div>
+
+                <div class="content-tweet">
+                    <p>sdds webamigos me respondendo BOM DIA.</p>
+                </div>
+
+                <div class="tweetBtn">
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.6666 1.66675L3.33325 1.66675L1.66658 1.66675V3.33342L1.66658 18.3334H3.33325L3.33325 3.33342L16.6666 3.33342V13.3334L4.99992 13.3334V15.0001H3.33346V16.6667H5.00012V15.0001L16.6666 15.0001H18.3333V13.3334V3.33342V1.66675L16.6666 1.66675Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1 6.4V8.2H2.8V6.4H4.6L4.6 17.2H6.4V19H10.9V17.2H6.4L6.4 6.4H8.2V8.2H10V6.4H8.2V4.6H6.4V2.8H4.6V4.6H2.8V6.4H1ZM17.2 15.4V13.6L19 13.6V11.8H17.2V13.6H15.4L15.4 2.8H13.6V1H9.1V2.8H13.6L13.6 13.6H11.8L11.8 11.8H10V13.6L11.8 13.6V15.4H13.6V17.2H15.4V15.4H17.2Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M7.54545 2H4.27273V3.63636H2.63636V5.27273H1V10.1818H2.63636V11.8182H4.27273V13.4545H5.90909V15.0909H7.54545V16.7273H9.18182V18.3636H10.8182V16.7273H12.4545V15.0909H14.0909V13.4545L15.7273 13.4545V11.8182H17.3636V10.1818H19V5.27273H17.3636V3.63636H15.7273V2H12.4545V3.63636H10.8182V5.27273H9.18182V3.63636H7.54545V2ZM7.54545 3.63636V5.27273H9.18182V6.90909H10.8182V5.27273H12.4545L12.4545 3.63636H15.7273L15.7273 5.27273H17.3636V10.1818H15.7273V11.8182H14.0909V13.4545H12.4545L12.4545 15.0909H10.8182V16.7273H9.18182V15.0909H7.54545V13.4545L5.90909 13.4545V11.8182H4.27273V10.1818H2.63636V5.27273H4.27273V3.63636H7.54545Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                    <button class="btnPequeno">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M2.5 11.6667L2.5 15.8333V17.5H4.16667H15.8333H17.5V15.8333V11.6667H15.8333V15.8333H4.16667V11.6667H2.5ZM9.16667 3.33333V5H7.5V6.66667H5.83333V8.33333H7.5V6.66667H9.16667V15H10.8333V3.33333H9.16667ZM10.8333 5H12.5V6.66667H10.8333V5ZM12.5 6.66667H14.1667V8.33333H12.5V6.66667Z"
+                                fill="black" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+            <div>
+                <a href="#">
+                    <button class="btnPequeno">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.8 3H10.2V4.8H8.4V6.6H6.6V8.4L4.8 8.4V10.2H3V12H4.8V21H11.1V15.6H12.9V21H19.2V12H21V10.2H19.2V8.4L17.4 8.4V6.6H15.6V4.8H13.8V3ZM13.8 4.8L13.8 6.6H15.6V8.4H17.4L17.4 10.2H19.2V12H17.4V19.2H14.7V13.8H9.3V19.2H6.6V12H4.8V10.2H6.6V8.4H8.4L8.4 6.6H10.2V4.8H13.8Z" fill="black"/>
+                    </svg>      
+                    </button>
+                </a>
+                <button class="btnPequeno">
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.69609 1.66675H12.2069V3.33341H5.69609V1.66675ZM4.06838 5.00008V3.33341H5.69609V5.00008H4.06838ZM4.06838 11.6667H2.44067V5.00008H4.06838V11.6667ZM5.69609 13.3334H4.06838V11.6667H5.69609V13.3334ZM12.2069 13.3334V15.0001H5.69609V13.3334H12.2069ZM13.8346 11.6667H12.2069L12.2069 13.3334H13.8346V15.0001H15.4623V16.6667H17.09V18.3334H18.7177V16.6667H17.09V15.0001H15.4623V13.3334H13.8346V11.6667ZM13.8346 5.00008H15.4623V11.6667H13.8346V5.00008ZM13.8346 5.00008V3.33341H12.2069L12.2069 5.00008H13.8346Z" fill="black"/>
+                    </svg> 
+                </button>
+                <button class="btnPequeno">
+                    <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9362 5.77778V4H10.3807V5.77778H5.93644V7.55555V14.6667H7.71422V7.55555H16.603V14.6667H18.3807V16.4445H5.93622V12.8889H4.15845V16.4445V18.2222H8.60278V21.7778H10.3806V18.2222H13.9361V20H10.3807V21.7778H13.9361V21.7778H15.7139V18.2222H20.1584V16.4445L20.1584 12.8889H18.3808V7.55555H18.3809V5.77778H13.9362Z" fill="black"/>
+                    </svg>                 
+                </button>
+                <button class="btnPequeno">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21.1584 5H3.15845V19H21.1584V5ZM4.95845 17.25V6.75H19.3584V17.25H4.95845ZM8.55855 8.5H6.75854V10.25H8.55835V12H10.3583V10.25H8.55855V8.5ZM15.7583 8.5H17.5583V10.25H15.7585V12H13.9585V10.25H15.7583V8.5ZM13.9584 12H10.3584V13.75H13.9584V12Z" fill="black"/>
+                    </svg>         
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>

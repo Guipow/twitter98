@@ -135,7 +135,9 @@ textarea::placeholder {
     gap: .3rem;
 }
 
-
+.firstTweet {
+    margin-bottom: 7.2rem;
+}
 
 /* xxxxxxxxxx HEADER xxxxxxxxxx */
 .wrapper {
@@ -219,9 +221,8 @@ header .logo {
 
 footer > .wrapper > div {
     width: 34.3rem;
-    height: 5.4rem;
+    padding-block: 1.2rem;
     display: flex;
     align-items: center;
     gap: 6.6rem;
-    
 }

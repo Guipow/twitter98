@@ -1,71 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'VT323', monospace;
-    width: 100%;
-    height: 100%;
-    background-color: #b8b8b8;
-    overflow: overlay;
-}
-
-html {
-    font-size: 62.5%;
-}
-
 #cards {
     display: flex;
     gap: 1.2rem;
     flex-direction: column-reverse;
-}
-
-section {
-    width: 34.3rem;
-    margin: 0 auto;
-}
-
-header {
-    display: flex;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    
-    width: 100vw;
-
-    padding-top: .6rem;
-    border-bottom: solid .2rem black;
-    background-color: #b8b8b8;
-    
-}
-
-footer {
-    
-    display: flex;
-    position: fixed;
-    z-index: 10;
-    bottom: 0;
-    
-    width: 100vw;
-    
-    border-top: solid .2rem black;
-    background-color: #b8b8b8;
-}
-
-.btnPequeno {
-    width: 3.6rem;
-    height: 3.6rem;
-    background-color: #b8b8b8;
-    border: none;
-    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
-    border-radius: .1rem;
-    cursor: pointer;
-}
-.btnPequeno:active {
-    background: #E1E1E1;
-    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.8), inset -2px -2px 1px rgba(255, 255, 255, 0.8);
 }
 
 
@@ -124,6 +62,7 @@ textarea::placeholder {
     border: none;
     background-color: #b8b8b8;
     cursor: pointer;
+    color: black;
 }
 .contentNewTweet {
     display: flex;
@@ -139,27 +78,7 @@ textarea::placeholder {
     margin-bottom: 7.2rem;
 }
 
-/* xxxxxxxxxx HEADER xxxxxxxxxx */
-.wrapper {
-    margin: 0 auto;
-}
-
-header .wrapper > div {
-    width: 37.5rem;
-    height: 5.4rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-header .logo {
-    width: 5.0rem;
-    height: 5.0rem;
-}
-
-
-
 /* xxxxxxxxxx TIMELINE xxxxxxxxxx */
-
 
 .tweet {
     width: 34.3rem;
@@ -214,15 +133,4 @@ header .logo {
 .tweetBtn {
     display: flex;
     gap: 1.2rem;
-}
-
-
-/* xxxxxxxxxx FOOTER xxxxxxxxxx */
-
-footer > .wrapper > div {
-    width: 34.3rem;
-    padding-block: 1.2rem;
-    display: flex;
-    align-items: center;
-    gap: 6.6rem;
 }

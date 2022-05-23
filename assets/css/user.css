@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+#profile {
+    margin-top: 7.4rem;
+    margin-bottom: 1.2rem;
+}
+
+#cards {
+    margin-bottom: 7.2rem;
+}
+
+.profileContainer {
+    width: 34.3rem;
+    height: 36rem;
+    background-color: #b8b8b8;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 0.1rem;
+}
+
+.profileCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem
+
+}
+.profileCard button {
+    width: 12.1rem;
+    height: 3.6rem;
+
+    background-color: #b8b8b8;
+    border: none;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: .1rem;
+    cursor: pointer;
+
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.profileCard button:active {
+    background: #E1E1E1;
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.8), inset -2px -2px 1px rgba(255, 255, 255, 0.8);
+}
+
+.profileCard img {
+    width: 13.2rem;
+    height: 13.2rem;
+}
+
+.profileContainer h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: hsla(0, 0%, 0%, 1);
+    padding-left: 1.6rem;
+}
+
+.profileContainer h3 {
+    font-size: 16px;
+    line-height: 16px;
+    color: hsla(0, 0%, 47%, 1);
+    padding-left: 1.6rem;
+}
+.profileContainer h4 {
+    font-size: 16px;
+    line-height: 16px;
+    color: hsla(0, 0%, 0%, 1);
+    margin-block: 1.2rem;
+    padding-left: 1.6rem;
+}
+
+.localizationCard {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.followCard {
+    display: flex;
+    gap: 0;
+    margin-top: 1.2rem;
+    padding-left: 1.6rem;
+}
+
+.followCard h5 {
+    font-size: 16px;
+    line-height: 16px;
+    color: hsla(0, 0%, 0%, 1);
+    margin-right: .4rem;
+}
+.followCard h6 {
+    font-size: 16px;
+    line-height: 16px;
+    color: hsla(0, 0%, 47%, 1);
+    padding-right: 1.6rem;
+}
+
+.buttonsCard {
+    display: flex;
+    justify-content: space-around;
+    gap: none;
+}
+
+.buttonsCard button{
+    background-color: #b8b8b8;
+    border: none;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: .1rem;
+    cursor: pointer;
+
+    font-family: 'VT323', monospace;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    padding: 1.0rem 1.56rem;
+    margin-top: 2.9rem;
+}
+.buttonsCard button:active {
+    background: #E1E1E1;
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.8), inset -2px -2px 1px rgba(255, 255, 255, 0.8);
+}

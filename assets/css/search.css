@@ -50,3 +50,21 @@
     line-height: 16px;
     color: hsla(0, 0%, 0%, 1);
 }
+.buscar {
+    width: 22.2rem;
+    height: 3.6rem;
+    display: flex;
+    padding-top: 0.6rem;
+}
+.buscar input {
+    width: 18.7rem;
+    height: 3.6rem;
+    border: none;
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.8);
+    
+    font-family: 'VT323', monospace;
+    font-size: 16px;
+    line-height: 16px;
+    color: hsla(0, 0%, 0%, 1);
+    padding-left: 1rem;
+}

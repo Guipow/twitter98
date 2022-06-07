@@ -7,7 +7,7 @@ tweet.addEventListener('click', () => {
     const input = document.querySelector("#textSpace")
     const valor = input.value
 
-    if (valor.length == 0) {
+    if (valor.length == 0 || valor == " ") {
         return;    
     }
     
@@ -57,7 +57,7 @@ tweet.addEventListener('click', () => {
     
     tarefa.innerHTML = conteudo
     
-    timeLine.appendChild(tarefa)
+    timeLine.prepend(tarefa)
     input.value = ""
 })
 

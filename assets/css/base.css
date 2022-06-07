@@ -14,6 +14,7 @@ body {
 
 html {
     font-size: 62.5%;
+    overflow: overlay;
 }
 
 section {
@@ -77,11 +78,6 @@ header .wrapper > div {
     justify-content: space-between;
 }
 
-header .logo {
-    width: 4.8rem;
-    height: 4.8rem;
-    
-}
 
 footer > .wrapper > div {
     width: 34.3rem;
@@ -89,5 +85,122 @@ footer > .wrapper > div {
     display: flex;
     align-items: center;
     gap: 6.6rem;
+}
+
+.menuContainer .menuButton {
+    width: 27.4rem;
+    height: 3.6rem;
+    background-color: #b8b8b8;
+    border: none;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: .1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.tweetButton {
+    width: 27.4rem;
+    height: 3.6rem;
+    background-color: #b8b8b8;
+    border: none;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: .1rem;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 27.4rem;
+    height: 58.2rem;
+    margin-top: 8rem;
+    margin-bottom: 1.2rem;
+}
+
+.profile-card {
+    width: 27.4rem;
+    height: 6.4rem;
+    display: none;
+    align-items: center;
+    gap: 5.5rem;
+    
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+
+    background-color: #b8b8b8;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 0.1rem;
+    margin-top: 8rem;
+    margin-bottom: 1.2rem;
+    padding: 1.2rem;
+}
+
+.profile-links {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.profile-content {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.profile-content > div > h1 {
+    font-size: 16px;
+    line-height: 16px;
+    color: hsla(0, 0%, 0%, 1);
+}
+.profile-content > div > h2 {
+    font-size: 12px;
+    line-height: 12px;
+    color: hsla(0, 0%, 47%, 1);
+}
+
+.nav-title {
+    font-size: 24px;
+    line-height: 24px;
+    display: none;
+}
+
+@media (min-width: 834px) {
+
+
+    section {
+        width: 77rem;
+        margin: 0 auto;
+    }
+    
+    header .wrapper > div {
+        width: 77rem;
+        border-bottom: solid .2rem black;
+        align-items: center;
+    }
+    footer {
+        display: none;
+    }
+
+    #homeContentContainer {
+        width: 77rem;
+        margin: 0 auto;
+    }
+
+    header {
+        border-bottom: none; 
+    }
+
+    .profile-card {
+        display: flex;
+    }
+
+    .nav-title {
+        display: block;
+    }
 }
 

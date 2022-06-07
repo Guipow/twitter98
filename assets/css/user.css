@@ -38,6 +38,8 @@
     font-family: 'VT323', monospace;
     font-size: 2rem;
     line-height: 2rem;
+    color: hsla(0, 0%, 0%, 1);
+    text-decoration: none;
 }
 
 .profileCard button:active {
@@ -51,21 +53,21 @@
 }
 
 .profileContainer h2 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
     color: hsla(0, 0%, 0%, 1);
     padding-left: 1.6rem;
 }
 
 .profileContainer h3 {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
     color: hsla(0, 0%, 47%, 1);
     padding-left: 1.6rem;
 }
 .profileContainer h4 {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
     color: hsla(0, 0%, 0%, 1);
     margin-block: 1.2rem;
     padding-left: 1.6rem;
@@ -73,7 +75,17 @@
 
 .localizationCard {
     display: flex;
+    padding-left: 1.6rem;
     gap: 1.6rem;
+}
+
+.localizationCard div {
+    display: flex;
+    gap: .4rem;
+}
+
+.profileContainer > .localizationCard > div > h3 {
+    padding: 0;
 }
 
 .followCard {
@@ -84,14 +96,14 @@
 }
 
 .followCard h5 {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
     color: hsla(0, 0%, 0%, 1);
     margin-right: .4rem;
 }
 .followCard h6 {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
     color: hsla(0, 0%, 47%, 1);
     padding-right: 1.6rem;
 }
@@ -108,6 +120,7 @@
     box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
     border-radius: .1rem;
     cursor: pointer;
+    text-decoration: none;
 
     font-family: 'VT323', monospace;
     font-size: 1.6rem;
@@ -119,3 +132,19 @@
     background: #E1E1E1;
     box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.8), inset -2px -2px 1px rgba(255, 255, 255, 0.8);
 }
+
+
+@media (min-width: 834px) {
+
+    .profileContainer {
+        width: 47.8rem;
+        height: 36rem;
+    }
+
+    .buttonsCard button{
+        padding: 1.0rem 3.2rem;
+    }
+
+}
+
+

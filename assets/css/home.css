@@ -3,7 +3,7 @@
 #cards {
     display: flex;
     gap: 1.2rem;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 
@@ -89,7 +89,6 @@ textarea::placeholder {
     border-radius: 0.1rem;
 }
 
-
 .content-tweet {
     width: 25.9rem;
     height: 6.4rem;
@@ -133,4 +132,93 @@ textarea::placeholder {
 .tweetBtn {
     display: flex;
     gap: 1.2rem;
+}
+
+
+/* xxxxxxxxxx MENU xxxxxxxxxx */
+
+#menu {
+    display: none;
+}
+
+#homeContentContainer {
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+
+}
+
+.menuContainer button:active {
+    background: #E1E1E1;
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.8), inset -2px -2px 1px rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+.buscarContainer {
+    height: 3.6rem;
+    display: flex;
+}
+
+.buscarContainer .btnPequeno {
+    width: 3.6rem;
+    height: 3.6rem;
+}
+.inpt-buscar {
+    width: 24.1rem;
+    height: 3.6rem;
+    border: none;
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.8);
+    
+    font-family: 'VT323', monospace;
+    font-size: 16px;
+    line-height: 16px;
+    color: hsla(0, 0%, 0%, 1);
+    padding-left: 1rem;
+}
+
+
+
+@media (min-width: 834px) {
+    #menu {
+        display: block;
+    }
+
+    #homeContentContainer {
+        justify-content: initial;
+    
+    }
+
+    .tweet {
+        width: 47.8rem;
+        height: 14.0rem;
+    
+    }
+
+    .content-tweet {
+        width: 39.4rem;
+        height: 4.8rem;
+    }
+
+    .newTweet {
+        width: 47.8rem;
+    }
+
+    textarea {
+        width: 39.4rem;
+        
+    }
+
+    .createBtn {
+        display: flex;
+        margin-left: 7.6rem;
+        gap: 1.1rem;
+    }
+
+    #send {
+        margin-left: 4rem;
+    }
+    
+
 }

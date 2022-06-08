@@ -34,6 +34,7 @@
     box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
     border-radius: .1rem;
     cursor: pointer;
+    padding: 0;
 
     font-family: 'VT323', monospace;
     font-size: 2rem;
@@ -93,6 +94,7 @@
     gap: 0;
     margin-top: 1.2rem;
     padding-left: 1.6rem;
+    padding-bottom: 2.8rem;
 }
 
 .followCard h5 {
@@ -112,6 +114,7 @@
     display: flex;
     justify-content: space-around;
     gap: none;
+    height: 3.6rem;
 }
 
 .buttonsCard button{
@@ -121,12 +124,13 @@
     border-radius: .1rem;
     cursor: pointer;
     text-decoration: none;
+    color: hsla(0, 0%, 0%, 1);
 
     font-family: 'VT323', monospace;
     font-size: 1.6rem;
     line-height: 1.6rem;
     padding: 1.0rem 1.56rem;
-    margin-top: 2.9rem;
+    
 }
 .buttonsCard button:active {
     background: #E1E1E1;

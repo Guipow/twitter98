@@ -270,7 +270,6 @@ footer > .wrapper > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    cursor: pointer;
 }
 .followCards h4 {
     color: hsla(0, 0%, 0%, 1);
@@ -303,6 +302,9 @@ footer > .wrapper > div {
     display: none;
 }
 
+.followCards a {
+    text-decoration: none;
+}
 
 @media (min-width: 834px) {
     

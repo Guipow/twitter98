@@ -17,13 +17,13 @@ tweet.addEventListener('click', () => {
     const conteudo = 
     `
     <div class="tweet-header">
-    <img src="/assets/imagens/user.png" alt="">
+    <img src="/assets/imagens/Guipow-avatar.png" alt="">
 </div>
 
 <div class="content">
    <div class="name">
-       <h4>user</h4>
-       <h5>@admin</h5>
+       <h4>Guilherme</h4>
+       <h5>@guipow1</h5>
    </div>
 
    <div class="content-tweet">

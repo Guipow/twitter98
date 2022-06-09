@@ -129,12 +129,6 @@ textarea::placeholder {
 }
 
 
-.tweetBtn {
-    display: flex;
-    gap: 1.2rem;
-}
-
-
 /* xxxxxxxxxx MENU xxxxxxxxxx */
 
 #menu {
@@ -145,16 +139,12 @@ textarea::placeholder {
     display: flex;
     gap: 1.8rem;
     justify-content: center;
-
 }
 
 .menuContainer button:active {
     background: #E1E1E1;
     box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.8), inset -2px -2px 1px rgba(255, 255, 255, 0.8);
 }
-
-
-
 
 .buscarContainer {
     height: 3.6rem;
@@ -176,6 +166,20 @@ textarea::placeholder {
     line-height: 16px;
     color: hsla(0, 0%, 0%, 1);
     padding-left: 1rem;
+}
+
+#trends {
+    display: none;
+}
+
+.follow {
+    width: 37.6rem;
+    height: 31.2rem;
+    
+    background-color: #b8b8b8;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 0.1rem;
+    padding: 1.2rem 1.6rem;
 }
 
 
@@ -219,6 +223,24 @@ textarea::placeholder {
     #send {
         margin-left: 4rem;
     }
-    
 
+}
+
+@media (min-width: 1220px) {
+    
+    #homeContentContainer {
+        gap: 3.2rem;
+    }
+
+    #trends {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .trendsContainer {
+        width: 37.6rem;
+        height: 47.8rem;
+    }
 }

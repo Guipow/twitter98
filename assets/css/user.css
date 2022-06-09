@@ -137,6 +137,9 @@
     box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.8), inset -2px -2px 1px rgba(255, 255, 255, 0.8);
 }
 
+#trends {
+    display: none;
+}
 
 @media (min-width: 834px) {
 
@@ -148,6 +151,20 @@
     .buttonsCard button{
         padding: 1.0rem 3.2rem;
     }
+
+}
+
+@media (min-width: 1220px) {
+    
+    #trends {
+        display: block;
+    }
+
+    .trendsContainer {
+        width: 37.6rem;
+        height: 47.8rem;
+    }
+
 
 }
 

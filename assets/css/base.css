@@ -18,7 +18,6 @@ html {
 }
 
 section {
-    width: 34.3rem;
     margin: 0 auto;
 }
 
@@ -169,13 +168,143 @@ footer > .wrapper > div {
     display: none;
 }
 
+.tweetBtn {
+    display: flex;
+    gap: 1.2rem;
+}
+
+/* XXXXXXXXXX TRENDS CONTAINER XXXXXXXXXX */
+
+#trends {
+    margin-top: 7.4rem;
+    margin-bottom: 7.2rem;
+}
+
+.trendsContainer {
+    width: 34.3rem;
+    height: 67rem;
+    background-color: #b8b8b8;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 0.1rem;
+    padding-top: 1.2rem;
+    padding-left: 1.6rem;
+    margin-top: .6rem;
+}
+
+.trendsContainer h2 {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 2.2rem;
+}
+
+.trendsContainer > a > h5 {
+    margin-top: 1.6rem;
+    font-size: 16px;
+    line-height: 16px;
+    color: hsla(0, 0%, 0%, 1);
+}
+.trendsContainer a {
+    text-decoration: none;
+}
+
+.cardsTrend {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.cardsTrend > div > h4 {
+    font-size: 12px;
+    line-height: 12px;
+    color: hsla(0, 0%, 47%, 1);
+}
+
+.cardsTrend > div > h3 {
+    font-size: 16px;
+    line-height: 16px;
+    color: hsla(0, 0%, 0%, 1);
+}
+
+#followSection {
+    width: 37.6rem;
+    height: 31.2rem;
+    
+    background-color: #b8b8b8;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 0.1rem;
+    padding: 1.2rem 1.6rem;
+    margin-top: 8rem;
+}
+
+#followSection h1,
+.follow h1 {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    color: hsla(0, 0%, 0%, 1);
+    padding-bottom: 2.4rem;
+}
+
+.followCards {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.followUsers {
+    display: flex;
+    gap: .9rem;
+    align-items: center;
+}
+
+.followUsers > div > h2 {
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+.followUsers > div > h3 {
+    color: hsla(0, 0%, 47%, 1);
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.followContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.followCards h4 {
+    color: hsla(0, 0%, 0%, 1);
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    cursor: pointer;
+}
+
+.followContent button {
+    width: 7.1rem;
+    height: 3.6rem;
+
+    font-family: 'VT323', monospace;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    
+    border: none;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.5), inset -2px -2px 1px rgba(0, 0, 0, 0.8);
+    background-color: #b8b8b8;
+    cursor: pointer;
+    color: black;
+}
+
+.followContent button:active {
+    background: #E1E1E1;
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, 0.8), inset -2px -2px 1px rgba(255, 255, 255, 0.8);
+}
+
+#followSection {
+    display: none;
+}
+
+
 @media (min-width: 834px) {
-
-
-    section {
-        width: 77rem;
-        margin: 0 auto;
-    }
     
     header .wrapper > div {
         width: 77rem;
@@ -202,5 +331,32 @@ footer > .wrapper > div {
     .nav-title {
         display: block;
     }
+
+    .tweetBtn {
+        gap: 5.6rem;
+    }
 }
 
+@media (min-width: 1220px) {
+
+
+    header .wrapper > div {
+        width: 119rem;
+        border-bottom: solid .2rem black;
+        align-items: center;
+    }
+
+    #homeContentContainer {
+        width: 119rem;
+        margin: 0 auto;
+    }
+
+    .remove {
+        display: none;
+    }
+
+    #followSection {
+        display: block;
+    }
+
+}
